@@ -1,0 +1,139 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(53, 52, 52);
+    overflow-y: hidden;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.search-container img {
+    margin-bottom: 20px;
+}
+
+.search-container form {
+    display: inline-block;
+}
+
+.search-container input[type="text"] {
+    width: 400px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-container button:hover {
+    background-color: #357ae8;
+}
+
+#languageSelector {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#languageSelector label {
+    margin-right: 10px;
+}
+
+#languageSelector select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+footer {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.footer-top{
+    display: flex;
+    color: #fff;
+    border-bottom: 1px solid rgb(8, 8, 8);
+    padding-left: 75px;
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-content ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.footer-content ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+
+/* Responsiveness */
+
+@media only screen and (max-width: 600px) {
+    .search-container {
+      text-align: center;
+    }
+  
+    #search-input {
+      width: 80%;
+      margin-bottom: 10px;
+    }
+  
+    #languageSelector {
+      margin-top: 20px;
+    }
+  
+    footer {
+      text-align: center;
+    }
+
+    .footer-top{
+        text-align: center;
+        margin: auto;
+    }
+  
+    .footer-content {
+      display: block;
+      text-align: center;
+    }
+  }
+  
+  

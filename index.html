@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav/favicon-16x16.png">
+    <link rel="manifest" href="/fav/site.webmanifest">
+    <link rel="mask-icon" href="/fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <div class="search-container">
+      <img
+        id="title"
+        src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
+        alt="Google Logo"
+      />
+      <form id="search-form">
+        <input type="text" id="search-input" placeholder="Search Google" />
+        <button type="submit">Search</button>
+      </form>
+
+      <div id="languageSelector">
+        <label for="">Google offered in</label>
+        <select id="languageDropdown">
+          <option value="en">English</option>
+          <option value="es">Spanish</option>
+          <option value="fr">French</option>
+          <option value="de">German</option>
+          <option value="hn">Hindi</option>
+          <!-- Add more language options here -->
+        </select>
+        <button onclick="changeLanguage()">Change Language</button>
+      </div>
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            India
+        </div>
+        <div class="footer-content" id="footerContent">
+            <ul>
+                <li><a href="https://about.google/?utm_source=google-IN&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a></li>
+                <li><a href="https://ads.google.com/intl/en_in/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li><a href="https://www.google.com/intl/en_in/business/">Business</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+            </ul>
+            <ul>
+                <li><a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a></li>
+                <li><a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a></li>
+                <li><a href="">Settings</a></li>
+            </ul>
+        </div>
+        <!-- <button onclick="toggleLanguage()">Change Language</button> -->
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
